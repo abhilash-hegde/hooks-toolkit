@@ -1,6 +1,6 @@
 {
   "name": "hooks-toolkit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A comprehensive collection of React hooks for modern applications",
   "author": "Abhilash Hegde",
   "main": "dist/index.js",
