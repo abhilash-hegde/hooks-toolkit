@@ -27,7 +27,7 @@ export function useAnimation(
   useEffect(() => {
     let startTime: number;
     let animationFrameId: number;
-    let timeoutId: number | null;
+    let timeoutId: NodeJS.Timeout | null;
 
     const startAnimation = () => {
       const animate = (time: number) => {
