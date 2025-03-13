@@ -7,6 +7,7 @@ export { useMediaQuery } from "./useMediaQuery"
 export { useLocalStorage } from "./useLocalStorage"
 export { useSessionStorage } from "./useSessionStorage"
 export { useToggle } from "./useToggle"
+export { useReducerWithMiddleware } from "./useReducerWithMiddleware"
 
 // Performance hooks
 export { useDebounce } from "./useDebounce"
@@ -25,6 +26,8 @@ export { useInput } from "./useInput"
 // Data fetching hooks
 export { useFetch } from "./useFetch"
 export { useAsync } from "./useAsync"
+export { useSWR } from "./useSWR"
+export { useInfiniteScroll } from "./useInfiniteScroll"
 
 // Animation hooks
 export { useAnimation } from "./useAnimation"
@@ -55,3 +58,6 @@ export { useIsMounted } from "./useIsMounted"
 export { usePrevious } from "./usePrevious"
 export { useStateWithHistory } from "./useStateWithHistory"
 
+// Responsive hooks
+export { useResponsive } from "./useResponsive"
+export { useDarkMode } from "./useDarkMode"
